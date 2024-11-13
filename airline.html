@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency - Aziz Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script> 
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <div class="globe"></div>
+            <div class="plane"></div>
+            <p>aziz Agency</p>
+          </div>
+          
+            <div class="contact-info">
+                <p>Email: <a href="mailto:contact@aziz.com">contact@aziz.com</a></p>
+                <p>Phone: <a href="tel:+2626103103">26.103.103</a></p>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Hôtels en Tunisie</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Tunis</a></li>
+                        <li><a href="#">Sousse</a></li>
+                        <li><a href="#">Djerba</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Hôtels dans le monde</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Paris</a></li>
+                        <li><a href="#">Rome</a></li>
+                        <li><a href="#">New York</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Voyages à l'étranger</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Europe</a></li>
+                        <li><a href="#">Asia</a></li>
+                        <li><a href="#">Africa</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Vols</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Domestic Flights</a></li>
+                        <li><a href="#">International Flights</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Promos</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Seasonal Offers</a></li>
+                        <li><a href="#">Last Minute Deals</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>VISITER LE MONDE !</h1>
+            <p>En exclusivité chez Aziz Agency</p>
+            <img src="concept-voyage-avion-monde-celebre-bagages-voyage_862335-22806.avif" alt="Voyages">
+        </div>
+
+        <div class="search-bar">
+            <form id="search-form" onsubmit="return validateForm()">
+                <input type="text" id="destination" placeholder="Votre Destination" required>
+                <input type="date" id="arrival" required>
+                <input type="date" id="departure" required>
+                <button type="submit">Rechercher</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Popular Places and Prices Section -->
+    <section class="places">
+        <h2>Nos Meilleures Destinations</h2>
+        <div class="place-cards">
+            <div class="place-card">
+                <img src="./Le-toit-de-la-boutique-Palais-de-lOrient.jpg" alt="Tunis">
+                <div class="place-info">
+                    <h3>Tunis</h3>
+                    <p>À partir de <strong>500 TND</strong> par nuit</p>
+                    <button>Voir Plus</button>
+                </div>
+            </div>
+            <div class="place-card">
+                <img src="caption.jpg" alt="Paris">
+                <div class="place-info">
+                    <h3>Paris</h3>
+                    <p>À partir de <strong>1200 TND</strong> par nuit</p>
+                    <button>Voir Plus</button>
+                </div>
+            </div>
+            <div class="place-card">
+                <img src="./191581218.jpg" alt="Sousse">
+                <div class="place-info">
+                    <h3>Sousse</h3>
+                    <p>À partir de <strong>650 TND</strong> par nuit</p>
+                    <button>Voir Plus</button>
+                </div>
+            </div>
+            <div class="place-card">
+                <img src="./new-york-statue-of-liberty.avif" alt="New York">
+                <div class="place-info">
+                    <h3>New York</h3>
+                    <p>À partir de <strong>1500 TND</strong> par nuit</p>
+                    <button>Voir Plus</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Aziz Agency - Tous droits réservés</p>
+    </footer>
+
+</body>
+
+</html>
+
+
